@@ -122,9 +122,8 @@ def extraer_info(lista_datos):
 def comparar_csv(cves_cisa_set):
   #Leer el archivo de tabla2 para encontrar CVE y Productos
   df2=pd.read_csv("CSV_Tabla2.csv")
-  df2.loc[len(df2)] = ["CVE-2023-24998", "Producto de Prueba para Validación"]
   lista_final=[]
-  #Recorrer la  con iteraciones
+  #Recorrer la  tabla con iteraciones
   for i, fila_df2 in df2.iterrows():
     cve=fila_df2["CVE"]
     productos=fila_df2["Productos"]
