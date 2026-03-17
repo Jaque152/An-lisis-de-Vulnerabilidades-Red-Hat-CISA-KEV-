@@ -41,5 +41,5 @@ Para conocer la probabilidad de que la vulnerabilidad sea explotada se uso la AP
 Se observaron EPSS menores al 30%, indicando que no es tan probable que sean atacados, pero al tener un percentil superior al 90% su riesgo en comparación con otras vulnerabilidades se vuelve alto; por lo que deben ser prioridad.
 
 ## Enlaces
-* **Dashboard Interactivo:** [https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-3910.json]
-* **Código Fuente:** Archivo `.ipynb` / `.py` incluido en este repositorio.
+* **Dashboard Interactivo:** [https://public.tableau.com/views/Anlisi_RedHat/Dashboard1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
+* **Código Fuente:** Archivo `.ipynb`  incluido en este repositorio.
